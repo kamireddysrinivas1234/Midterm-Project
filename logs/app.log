@@ -1,0 +1,139 @@
+2025-03-11 18:36:39,390 - setup_test - INFO - Logging configured successfully with level DEBUG  # INFO, WARNING, ERROR, CRITICAL at ./logs/app.log
+2025-03-11 18:36:39,390 - app - INFO - Application is Starting
+2025-03-11 18:36:39,390 - app - INFO - Starting plugin loading process
+2025-03-11 18:36:39,397 - app - INFO - Registered command: add
+2025-03-11 18:36:39,398 - app - INFO - Registered command: divide
+2025-03-11 18:36:39,398 - app - INFO - Registered command: exit
+2025-03-11 18:36:39,684 - app - INFO - Registered command: history_clear
+2025-03-11 18:36:39,685 - app - INFO - Registered command: history_load
+2025-03-11 18:36:39,685 - app - INFO - Registered command: history_save
+2025-03-11 18:36:39,686 - app - INFO - Registered command: history_show
+2025-03-11 18:36:39,688 - app - INFO - Registered command: last_op
+2025-03-11 18:36:39,689 - app - INFO - Registered command: menu
+2025-03-11 18:36:39,689 - app - INFO - Registered command: multiply
+2025-03-11 18:36:39,690 - app - INFO - Registered command: subtract
+2025-03-11 18:36:39,690 - app - INFO - Application initialized
+2025-03-11 18:36:39,691 - app - INFO - Starting REPL interface
+2025-03-11 18:37:33,785 - app - CRITICAL - REPL session failed
+Traceback (most recent call last):
+  File "C:\GitHub\Mid_Term\app\__init__.py", line 132, in run_repl
+    self._execute_command(user_input)
+  File "C:\GitHub\Mid_Term\app\__init__.py", line 152, in _execute_command
+    command.execute(*args) if args else command.execute()
+TypeError: execute() missing 1 required positional argument: 'b_str'
+2025-03-11 18:38:15,922 - setup_test - INFO - Logging configured successfully with level DEBUG  # INFO, WARNING, ERROR, CRITICAL at ./logs/app.log
+2025-03-11 18:38:15,923 - app - INFO - Application is Starting
+2025-03-11 18:38:15,923 - app - INFO - Starting plugin loading process
+2025-03-11 18:38:15,933 - app - INFO - Registered command: add
+2025-03-11 18:38:15,935 - app - INFO - Registered command: divide
+2025-03-11 18:38:15,936 - app - INFO - Registered command: exit
+2025-03-11 18:38:16,225 - app - INFO - Registered command: history_clear
+2025-03-11 18:38:16,226 - app - INFO - Registered command: history_load
+2025-03-11 18:38:16,226 - app - INFO - Registered command: history_save
+2025-03-11 18:38:16,227 - app - INFO - Registered command: history_show
+2025-03-11 18:38:16,227 - app - INFO - Registered command: last_op
+2025-03-11 18:38:16,228 - app - INFO - Registered command: menu
+2025-03-11 18:38:16,228 - app - INFO - Registered command: multiply
+2025-03-11 18:38:16,229 - app - INFO - Registered command: subtract
+2025-03-11 18:38:16,229 - app - INFO - Application initialized
+2025-03-11 18:38:16,229 - app - INFO - Starting REPL interface
+2025-03-11 18:38:21,421 - app - CRITICAL - REPL session failed
+Traceback (most recent call last):
+  File "C:\GitHub\Mid_Term\app\__init__.py", line 132, in run_repl
+    self._execute_command(user_input)
+  File "C:\GitHub\Mid_Term\app\__init__.py", line 152, in _execute_command
+    command.execute(*args) if args else command.execute()
+TypeError: execute() missing 1 required positional argument: 'b_str'
+2025-03-11 18:41:09,062 - setup_test - INFO - Logging configured successfully with level DEBUG  # INFO, WARNING, ERROR, CRITICAL at ./logs/app.log
+2025-03-11 18:41:09,062 - app - INFO - Application is Starting
+2025-03-11 18:41:09,062 - app - INFO - Starting plugin loading process
+2025-03-11 18:41:09,070 - app - INFO - Registered command: add
+2025-03-11 18:41:09,070 - app - INFO - Registered command: divide
+2025-03-11 18:41:09,070 - app - INFO - Registered command: exit
+2025-03-11 18:41:09,343 - app - INFO - Registered command: history_clear
+2025-03-11 18:41:09,344 - app - INFO - Registered command: history_load
+2025-03-11 18:41:09,345 - app - INFO - Registered command: history_save
+2025-03-11 18:41:09,345 - app - INFO - Registered command: history_show
+2025-03-11 18:41:09,346 - app - INFO - Registered command: last_op
+2025-03-11 18:41:09,347 - app - INFO - Registered command: menu
+2025-03-11 18:41:09,347 - app - INFO - Registered command: multiply
+2025-03-11 18:41:09,348 - app - INFO - Registered command: subtract
+2025-03-11 18:41:09,348 - app - INFO - Application initialized
+2025-03-11 18:41:09,349 - app - INFO - Starting REPL interface
+2025-03-11 18:41:26,823 - app - INFO - Exit command received
+2025-03-11 18:43:52,759 - setup_test - INFO - Logging configured successfully with level DEBUG  # INFO, WARNING, ERROR, CRITICAL at ./logs/app.log
+2025-03-11 18:43:52,759 - app - INFO - Application is Starting
+2025-03-11 18:43:52,759 - app - INFO - Starting plugin loading process
+2025-03-11 18:43:52,766 - app - INFO - Registered command: add
+2025-03-11 18:43:52,767 - app - INFO - Registered command: divide
+2025-03-11 18:43:52,767 - app - INFO - Registered command: exit
+2025-03-11 18:43:53,032 - app - INFO - Registered command: history_clear
+2025-03-11 18:43:53,033 - app - INFO - Registered command: history_load
+2025-03-11 18:43:53,034 - app - INFO - Registered command: history_save
+2025-03-11 18:43:53,035 - app - INFO - Registered command: history_show
+2025-03-11 18:43:53,036 - app - INFO - Registered command: last_op
+2025-03-11 18:43:53,037 - app - INFO - Registered command: menu
+2025-03-11 18:43:53,037 - app - INFO - Registered command: multiply
+2025-03-11 18:43:53,038 - app - INFO - Registered command: subtract
+2025-03-11 18:43:53,039 - app - INFO - Application initialized
+2025-03-11 18:43:53,039 - app - INFO - Starting REPL interface
+2025-03-11 18:45:29,825 - app.plugins.history_facade - INFO - Created history directory at C:\GitHub\Mid_Term\calculator_history
+2025-03-11 18:45:29,825 - app.plugins.history_facade - INFO - Saving 5 records to calculator_history\calculator_history_20250311_184529.csv
+2025-03-11 18:45:41,603 - app.plugins.history_facade - INFO - Created history directory at C:\GitHub\Mid_Term\calculator_history
+2025-03-11 18:45:48,329 - app.plugins.history_facade - INFO - Attempting to load history from calculator_history_20250311_184529.csv
+2025-03-11 18:45:48,330 - app.plugins.history_facade - INFO - Created history directory at C:\GitHub\Mid_Term\calculator_history
+2025-03-11 18:45:48,332 - app.plugins.history_facade - INFO - Cleared existing history before import
+2025-03-11 18:45:48,332 - app.plugins.history_facade - INFO - Successfully loaded 5 records from calculator_history_20250311_184529.csv
+2025-03-11 18:46:19,777 - app - INFO - Exit command received
+2025-03-11 18:46:58,096 - setup_test - INFO - Logging configured successfully with level DEBUG  # INFO, WARNING, ERROR, CRITICAL at ./logs/app.log
+2025-03-11 18:46:58,096 - app - INFO - Application is Starting
+2025-03-11 18:46:58,097 - app - INFO - Starting plugin loading process
+2025-03-11 18:46:58,103 - app - INFO - Registered command: add
+2025-03-11 18:46:58,103 - app - INFO - Registered command: divide
+2025-03-11 18:46:58,104 - app - INFO - Registered command: exit
+2025-03-11 18:46:58,370 - app - INFO - Registered command: history_clear
+2025-03-11 18:46:58,370 - app - INFO - Registered command: history_load
+2025-03-11 18:46:58,371 - app - INFO - Registered command: history_save
+2025-03-11 18:46:58,372 - app - INFO - Registered command: history_show
+2025-03-11 18:46:58,372 - app - INFO - Registered command: last_op
+2025-03-11 18:46:58,373 - app - INFO - Registered command: menu
+2025-03-11 18:46:58,373 - app - INFO - Registered command: multiply
+2025-03-11 18:46:58,374 - app - INFO - Registered command: subtract
+2025-03-11 18:46:58,374 - app - INFO - Application initialized
+2025-03-11 18:46:58,374 - app - INFO - Starting REPL interface
+2025-03-11 18:59:40,443 - app - INFO - Exit command received
+2025-10-24 05:04:25,518 - setup_test - INFO - Logging configured successfully with level DEBUG at ./logs/app.log
+2025-10-24 05:04:25,518 - app - INFO - Application is Starting
+2025-10-24 05:04:25,518 - app - INFO - Starting plugin loading process
+2025-10-24 05:04:25,550 - app - INFO - Registered command: Menu
+2025-10-24 05:04:25,622 - app - INFO - Registered command: add
+2025-10-24 05:04:25,635 - app - INFO - Registered command: divide
+2025-10-24 05:04:25,647 - app - INFO - Registered command: exit
+2025-10-24 05:04:28,187 - app - INFO - Registered command: history_clear
+2025-10-24 05:04:28,202 - app - INFO - Registered command: history_load
+2025-10-24 05:04:28,214 - app - INFO - Registered command: history_save
+2025-10-24 05:04:28,226 - app - INFO - Registered command: history_show
+2025-10-24 05:04:28,237 - app - INFO - Registered command: last_op
+2025-10-24 05:04:28,248 - app - INFO - Registered command: multiply
+2025-10-24 05:04:28,260 - app - INFO - Registered command: subtract
+2025-10-24 05:04:28,260 - app - INFO - Application initialized
+2025-10-24 05:04:28,260 - app - INFO - Starting REPL interface
+2025-10-24 05:05:51,274 - app - DEBUG - User input: clear
+2025-10-24 05:06:30,650 - app - DEBUG - User input: exit
+2025-10-24 05:06:30,650 - app - INFO - Exit command received
+2025-10-24 22:11:17,250 - setup_test - INFO - Logging configured successfully with level DEBUG at ./logs/app.log
+2025-10-24 22:11:17,251 - app - INFO - Application is Starting
+2025-10-24 22:11:17,251 - app - INFO - Starting plugin loading process
+2025-10-24 22:11:17,263 - app - INFO - Registered command: Menu
+2025-10-24 22:11:17,274 - app - INFO - Registered command: add
+2025-10-24 22:11:17,276 - app - INFO - Registered command: divide
+2025-10-24 22:11:17,278 - app - INFO - Registered command: exit
+2025-10-24 22:11:19,886 - app - INFO - Registered command: history_clear
+2025-10-24 22:11:19,888 - app - INFO - Registered command: history_load
+2025-10-24 22:11:19,889 - app - INFO - Registered command: history_save
+2025-10-24 22:11:19,891 - app - INFO - Registered command: history_show
+2025-10-24 22:11:19,892 - app - INFO - Registered command: last_op
+2025-10-24 22:11:19,893 - app - INFO - Registered command: multiply
+2025-10-24 22:11:19,895 - app - INFO - Registered command: subtract
+2025-10-24 22:11:19,895 - app - INFO - Application initialized
+2025-10-24 22:11:19,895 - app - INFO - Starting REPL interface
